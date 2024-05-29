@@ -1,0 +1,614 @@
+.opportunity {
+  margin-top: 25vh;
+  margin-bottom: 25vh;
+}
+
+.opportunitySection {
+  /* height: 100%; */
+}
+
+.opportunitySection-title {
+  text-align: center;
+  position: sticky;
+  top: 25vh;
+  z-index: -1;
+}
+
+.opportunitySection-title-sub {
+  opacity: 0.1;
+  text-align: center;
+  transform: rotate(180deg);
+  position: sticky;
+  top: 35vh;
+  z-index: -1;
+}
+
+.opportunitySection p {
+  font-size: 2.5rem;
+  position: relative;
+  z-index: 2;
+}
+
+.opportunitySection .opportunitySection-text {
+  margin-top: 50vh;
+}
+
+.opportunitySection .opportunitySection-text3 {
+  font-size: 4rem;
+}
+.opportunitySection .opportunitySection-text2 {
+  font-size: 2rem;
+}
+.opportunitySection .opportunitySection-text1 {
+  font-size: 1rem;
+}
+.opportunitySection .opportunitySection-text5 {
+  font-size: 5rem;
+}
+
+.images {
+  width: 100%;
+  filter: brightness(0.2);
+  position: sticky;
+  top: 0;
+  left: 0;
+  height: 100%;
+  margin-top: 100vh;
+}
+
+.opportunity-img {
+  height: 450vh;
+  margin-top: -40vh;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.opportunity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.opportunity-img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.opportunity-img .images {
+  width: 100%;
+  height: auto;
+  max-width: 800px; /* 必要に応じてこの値を調整 */
+}
+
+.opportunitySection {
+  text-align: center;
+  max-width: 800px; /* 必要に応じてこの値を調整 */
+  padding: 20px;
+}
+
+.opportunitySection-title,
+.opportunitySection-title-sub,
+.opportunitySection-text,
+.opportunitySection-text1,
+.opportunitySection-text2,
+.opportunitySection-text3,
+.opportunitySection-text5 {
+  margin: 10px 0;
+}
+
+@media (max-width: 600px) {
+  .opportunitySection {
+    padding: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1500px) {
+  .opportunity-img {
+    margin-top: -40vh;
+    /* height: 350vh; */
+    position: absolute;
+    z-index: 1;
+  }
+
+  .images {
+    width: 100%;
+    filter: brightness(0.2);
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin-top: 100vh;
+  }
+
+  .opportunitySection-title {
+    text-align: center;
+    position: sticky;
+    top: 25vh;
+    z-index: -1;
+
+    font-size: 6rem;
+  }
+  .opportunitySection-title-sub {
+    opacity: 0.1;
+    text-align: center;
+    transform: rotate(180deg);
+    position: sticky;
+    top: 30vh;
+    z-index: -1;
+    font-size: 6rem;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .opportunity-img {
+    margin-top: -40vh;
+    height: 350vh;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .images {
+    width: 100%;
+    filter: brightness(0.2);
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin-top: 100vh;
+  }
+
+  .opportunitySection-title {
+    text-align: center;
+    position: sticky;
+    top: 25vh;
+    z-index: -1;
+
+    font-size: 6rem;
+  }
+  .opportunitySection-title-sub {
+    opacity: 0.1;
+    text-align: center;
+    transform: rotate(180deg);
+    position: sticky;
+    top: 30vh;
+    z-index: -1;
+    font-size: 6rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .opportunity-img {
+    margin-top: -40vh;
+    height: 450vh;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .images {
+    width: 100%;
+    filter: brightness(0.2);
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin-top: 100vh;
+  }
+
+  .opportunitySection-title {
+    text-align: center;
+    position: sticky;
+    top: 25vh;
+    z-index: -1;
+
+    font-size: 6rem;
+  }
+  .opportunitySection-title-sub {
+    opacity: 0.1;
+    text-align: center;
+    transform: rotate(180deg);
+    position: sticky;
+    top: 30vh;
+    z-index: -1;
+    font-size: 6rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .opportunity-img {
+    margin-top: -50vh;
+    height: 280vh;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .images {
+    width: 100%;
+    filter: brightness(0.2);
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin-top: 100vh;
+  }
+
+  .opportunitySection-title {
+    text-align: center;
+    position: sticky;
+    top: 25vh;
+    z-index: -1;
+    font-size: 4rem;
+  }
+
+  .opportunitySection-title-sub {
+    opacity: 0.1;
+    text-align: center;
+    transform: rotate(180deg);
+    position: sticky;
+    top: 30vh;
+    z-index: -1;
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .opportunity-img {
+    margin-top: -50vh;
+    height: 330vh;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .images {
+    width: 100%;
+    filter: brightness(0.2);
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin-top: 100vh;
+  }
+
+  .opportunitySection-title {
+    text-align: center;
+    position: sticky;
+    top: 25vh;
+    z-index: -1;
+
+    font-size: 4rem;
+  }
+
+  .opportunitySection-title-sub {
+    opacity: 0.1;
+    text-align: center;
+    transform: rotate(180deg);
+    position: sticky;
+    top: 30vh;
+    z-index: -1;
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 855px) {
+  .opportunity-img {
+    margin-top: -50vh;
+    height: 330vh;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .images {
+    width: 100%;
+    filter: brightness(0.2);
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin-top: 100vh;
+  }
+
+  .opportunitySection-title {
+    text-align: center;
+    position: sticky;
+    top: 25vh;
+    z-index: -1;
+
+    font-size: 4rem;
+  }
+
+  .opportunitySection-title-sub {
+    opacity: 0.1;
+    text-align: center;
+    transform: rotate(180deg);
+    position: sticky;
+    top: 30vh;
+    z-index: -1;
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .opportunity-img {
+    margin-top: -40vh;
+    height: 375vh;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .images {
+    width: 100%;
+    filter: brightness(0.2);
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin-top: 100vh;
+  }
+
+  .opportunitySection-title {
+    text-align: center;
+    position: sticky;
+    top: 25vh;
+    z-index: -1;
+    font-size: 4rem;
+  }
+
+  .opportunitySection-title-sub {
+    opacity: 0.1;
+    text-align: center;
+    transform: rotate(180deg);
+    position: sticky;
+    top: 30vh;
+    z-index: -1;
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .opportunity-img {
+    margin-top: -20vh;
+    height: 350vh;
+    position: absolute;
+    z-index: 1;
+  }
+  .opportunitySection-title {
+    font-size: 2rem;
+  }
+
+  .images {
+    width: 100%;
+    filter: brightness(0.2);
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin-top: 50vh;
+  }
+
+  .opportunitySection-title-sub {
+    opacity: 0.1;
+    text-align: center;
+    transform: rotate(180deg);
+    position: sticky;
+    top: 28vh;
+    z-index: -1;
+    font-size: 2.5rem;
+  }
+
+  .opportunitySection .opportunitySection-text {
+    margin-top: 50vh;
+  }
+
+  .opportunitySection .opportunitySection-text3 {
+    font-size: 2rem;
+  }
+  .opportunitySection .opportunitySection-text2 {
+    font-size: 1rem;
+  }
+  .opportunitySection .opportunitySection-text1 {
+    font-size: 0.5rem;
+  }
+  .opportunitySection .opportunitySection-text5 {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .opportunity-img {
+    margin-top: -20vh;
+    height: 400vh;
+    position: absolute;
+    z-index: 1;
+  }
+  .opportunitySection-title {
+    font-size: 2rem;
+  }
+
+  .images {
+    width: 100%;
+    filter: brightness(0.2);
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin-top: 50vh;
+  }
+
+  .opportunitySection-title-sub {
+    opacity: 0.1;
+    text-align: center;
+    transform: rotate(180deg);
+    position: sticky;
+    top: 28vh;
+    z-index: -1;
+    font-size: 2.5rem;
+  }
+
+  .opportunitySection .opportunitySection-text {
+    margin-top: 50vh;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .opportunity-img {
+    margin-top: -20vh;
+    height: 350vh;
+    position: absolute;
+    z-index: 1;
+  }
+  .opportunitySection-title {
+    font-size: 2rem;
+  }
+
+  .images {
+    width: 100%;
+    filter: brightness(0.2);
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin-top: 50vh;
+  }
+
+  .opportunitySection-title-sub {
+    opacity: 0.1;
+    text-align: center;
+    transform: rotate(180deg);
+    position: sticky;
+    top: 28vh;
+    z-index: -1;
+    font-size: 2.5rem;
+  }
+
+  .opportunitySection .opportunitySection-text {
+    margin-top: 50vh;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .opportunity-img {
+    margin-top: -10vh;
+    height: 350vh;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .images {
+    width: 100%;
+    filter: brightness(0.2);
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin-top: 50vh;
+  }
+
+  .opportunitySection-title {
+    text-align: center;
+    position: sticky;
+    top: 25vh;
+    z-index: -1;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .opportunity-img {
+    margin-top: -10vh;
+    height: 375vh;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .images {
+    width: 100%;
+    filter: brightness(0.2);
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin-top: 50vh;
+  }
+
+  .opportunitySection-title {
+    text-align: center;
+    position: sticky;
+    top: 25vh;
+    z-index: -1;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .opportunity-img {
+    height: 450vh;
+    margin-top: -5vh;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .images {
+    width: 100%;
+    filter: brightness(0.2);
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin-top: 50vh;
+  }
+
+  .opportunitySection-title {
+    text-align: center;
+    position: sticky;
+    top: 25vh;
+    z-index: -1;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .opportunity-img {
+    height: 350vh;
+    margin-top: -5vh;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .images {
+    width: 100%;
+    filter: brightness(0.2);
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin-top: 50vh;
+  }
+
+  .opportunitySection-title {
+    text-align: center;
+    position: sticky;
+    top: 25vh;
+    z-index: -1;
+  }
+
+  .opportunitySection-title-sub {
+    opacity: 0.1;
+    text-align: center;
+    transform: rotate(180deg);
+    position: sticky;
+    top: 28vh;
+    z-index: -1;
+    font-size: 2rem;
+  }
+}
